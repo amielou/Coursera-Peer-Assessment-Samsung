@@ -1,7 +1,7 @@
 ##Coursera-Peer-Assessment-Samsung
 ================================
 
-###My Final Peer Assement Project for "Getting and Cleaning Data" Course offered by Coursera.
+###Final Project for "Getting and Cleaning Data" Course, offered by Coursera.
 
 ##R Script Details
 
