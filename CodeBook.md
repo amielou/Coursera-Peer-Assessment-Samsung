@@ -1,8 +1,8 @@
-###Data Dictionary and Variable Definitions - Samsung Project - Coursera Peer Assessment
+#Data Dictionary and Variable Definitions - Samsung Project - Coursera Peer Assessment
 
-#Code Definition and Data Definition for SmartPhoneDatabyActivitySubject.csv
+##Code Definition and Data Definition for SmartPhoneDatabyActivitySubject.csv
 
-#Code definitions
+###Code definitions
 
 The coding standards followed through the R script were Pascal Case (sometimes referred to as upper Camel Case).  The standard also used by Microsoft developers.  I believe this to be the most readable form and, as long as variable naming is consistent, it should meet the requirement of readability.
 
@@ -11,7 +11,7 @@ The coding standards followed through the R script were Pascal Case (sometimes r
 The CSV file has 180 columns corresponding to 30 subjects participating in 6 separate activities.
 
 	* LAYING.#
-		For each Subject, the column LAYING.# represents the activity laying,  where # represents the 		subject and Laying represent the activity Laying
+		# represents the subject and Laying represent the activity Laying
 	
 	* SITTING.#
 		# represents the subject and sitting represent the activity sitting
@@ -32,50 +32,50 @@ The CSV file has 180 columns corresponding to 30 subjects participating in 6 sep
 
 The 79 rows in the csv containt the subject's overall average for each of the 79 measures from the original tidy data set:
 
-*fBodyGyro-mean()-Y
-*fBodyGyro-mean()-Z
-*fBodyGyro-meanFreq()-X
-*fBodyGyro-meanFreq()-Y
-*fBodyGyro-meanFreq()-Z
-*fBodyAccMag-mean()
-*fBodyAccMag-meanFreq()
-*fBodyBodyAccJerkMag-mean()
-*fBodyBodyAccJerkMag-meanFreq()
-*fBodyBodyGyroMag-mean()
-*fBodyBodyGyroMag-meanFreq()
-*fBodyBodyGyroJerkMag-mean()
-*fBodyBodyGyroJerkMag-meanFreq()
-*tBodyAcc-std()-X
-*tBodyAcc-std()-Y
-*tBodyAcc-std()-Z
-*tGravityAcc-std()-X
-*tGravityAcc-std()-Y
-*tGravityAcc-std()-Z
-*tBodyAccJerk-std()-X
-*tBodyAccJerk-std()-Y
-*tBodyAccJerk-std()-Z
-*tBodyGyro-std()-X
-*tBodyGyro-std()-Y
-*tBodyGyro-std()-Z
-*tBodyGyroJerk-std()-X
-*tBodyGyroJerk-std()-Y
-*tBodyGyroJerk-std()-Z
-*tBodyAccMag-std()
-*tGravityAccMag-std()
-*tBodyAccJerkMag-std()
-*tBodyGyroMag-std()
-*tBodyGyroJerkMag-std()
-*fBodyAcc-std()-X
-*fBodyAcc-std()-Y
-*fBodyAcc-std()-Z
-*fBodyAccJerk-std()-X
-*fBodyAccJerk-std()-Y
-*fBodyAccJerk-std()-Z
-*fBodyGyro-std()-X
-*fBodyGyro-std()-Y
-*fBodyGyro-std()-Z
-*fBodyAccMag-std()
-*fBodyBodyAccJerkMag-std()
-*fBodyBodyGyroMag-std()
-*fBodyBodyGyroJerkMag-std()
+	*	fBodyGyro-mean()-Y
+	*	fBodyGyro-mean()-Z
+	*	fBodyGyro-meanFreq()-X
+	*	fBodyGyro-meanFreq()-Y
+	*	fBodyGyro-meanFreq()-Z
+	*	fBodyAccMag-mean()
+	*	fBodyAccMag-meanFreq()
+	*	fBodyBodyAccJerkMag-mean()
+	*	fBodyBodyAccJerkMag-meanFreq()
+	*	fBodyBodyGyroMag-mean()
+	*	fBodyBodyGyroMag-meanFreq()
+	*	fBodyBodyGyroJerkMag-mean()
+	*	fBodyBodyGyroJerkMag-meanFreq()
+	*	tBodyAcc-std()-X
+	*	tBodyAcc-std()-Y
+	*	tBodyAcc-std()-Z
+	*	tGravityAcc-std()-X
+	*	tGravityAcc-std()-Y
+	*	tGravityAcc-std()-Z
+	*	tBodyAccJerk-std()-X
+	*	tBodyAccJerk-std()-Y
+	*	tBodyAccJerk-std()-Z
+	*	tBodyGyro-std()-X
+	*	tBodyGyro-std()-Y
+	*	tBodyGyro-std()-Z
+	*	tBodyGyroJerk-std()-X
+	*	tBodyGyroJerk-std()-Y
+	*	tBodyGyroJerk-std()-Z
+	*	tBodyAccMag-std()
+	*	tGravityAccMag-std()
+	*	tBodyAccJerkMag-std()
+	*	tBodyGyroMag-std()
+	*	tBodyGyroJerkMag-std()
+	*	fBodyAcc-std()-X
+	*	fBodyAcc-std()-Y
+	*	fBodyAcc-std()-Z
+	*	fBodyAccJerk-std()-X
+	*	fBodyAccJerk-std()-Y
+	*	fBodyAccJerk-std()-Z
+	*	fBodyGyro-std()-X
+	*	fBodyGyro-std()-Y
+	*	fBodyGyro-std()-Z
+	*	fBodyAccMag-std()
+	*	fBodyBodyAccJerkMag-std()
+	*	fBodyBodyGyroMag-std()
+	*	fBodyBodyGyroJerkMag-std()
  
